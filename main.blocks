@@ -1,1 +1,18 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="p:p|fh:F`YjI:7gb*%Iq" x="0" y="0"/></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="0+9!y.)bc[zD@Xei*i8F">mySprite</variable><variable type="KIND_SpriteKind" id="17yvxRTEk2W3tB`2uIVd">Player</variable><variable type="KIND_SpriteKind" id="x6az.16TqSkqM2qEoA+l">Projectile</variable><variable type="KIND_SpriteKind" id="3g1tuuVC9YQg(~JEZY22">Food</variable><variable type="KIND_SpriteKind" id="#.HgGAW=DNf4nWOTU-j^">Enemy</variable></variables><block type="pxt-on-start" id="p:p|fh:F`YjI:7gb*%Iq" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="e*cgD*jMpxm9n32|)r5A"><field name="VAR" id="0+9!y.)bc[zD@Xei*i8F">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="QZjrHw3cMx$`0dc_Qj!K"><value name="img"><shadow type="screen_image_picker" id="{+/e8*QZ1dD`ndN:$*:6"><field name="img">img`
+f f f f f f f f f f f f f f f f 
+f 5 5 5 5 5 5 5 5 5 5 5 5 5 5 f 
+f 5 5 5 5 5 5 5 5 5 5 5 5 5 5 f 
+f 5 5 f f 5 5 5 5 5 5 f f 5 5 f 
+f 5 5 f f 5 5 5 5 5 5 f f 5 5 f 
+f 5 5 5 5 5 5 5 5 5 5 5 5 5 5 f 
+f 5 5 5 5 5 5 5 5 5 5 5 5 5 5 f 
+f 5 5 5 5 5 5 5 5 5 5 5 5 5 5 f 
+f 5 5 5 5 5 5 5 5 5 5 5 5 5 5 f 
+f 5 5 f 5 5 5 5 5 5 5 5 f 5 5 f 
+f 5 5 5 f 5 5 5 5 5 5 f 5 5 5 f 
+f 5 5 5 5 f f f f f f 5 5 5 5 f 
+f 5 5 5 5 5 5 5 5 5 5 5 5 5 5 f 
+f 5 5 5 5 5 5 5 5 5 5 5 5 5 5 f 
+f 5 5 5 5 5 5 5 5 5 5 5 5 5 5 f 
+f f f f f f f f f f f f f f f f 
+`</field></shadow></value><value name="kind"><shadow type="spritekind" id="hOw?qxPfO$fh4xS(/%*+"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id="Bu?EK@ptpe[SyoAhY)nS"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="sprite"><block type="variables_get" id="==D9Y0Yc$ZFP@omuF]Vm"><field name="VAR" id="0+9!y.)bc[zD@Xei*i8F">mySprite</field></block></value><value name="vx"><shadow type="math_number" id="ZPPp-xN0|s28PdxxuhaP"><field name="NUM">100</field></shadow></value><value name="vy"><shadow type="math_number" id="cpcL`4~/5-:;%7n]A7r~"><field name="NUM">100</field></shadow></value></block></next></block></statement></block></xml>
